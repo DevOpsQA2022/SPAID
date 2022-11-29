@@ -1,0 +1,227 @@
+name: spaid
+description: A new Flutter application.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+analyzer:
+  enable-experiment:
+    - non-nullable
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  #State Management
+  provider: ^4.3.3
+  #Stop Watch
+  stop_watch_timer: ^1.0.0
+  #carosel_slider
+  carousel_slider: ^2.3.4
+  #page_transition
+  page_transition: ^1.1.7+6
+  #Intro Screen
+  introduction_screen: ^3.0.2
+  #TimeZone_picker
+  flutter_native_timezone: ^1.0.10
+  #Form_Select
+  smart_select: ^4.3.2
+  #Google_fonts
+  google_fonts: ^1.1.0
+  #Date_Conversion
+  jiffy: ^4.0.0
+  #Dio
+  dio: ^3.0.7
+  pretty_dio_logger: ^1.1.1
+  #Local_Storage
+  shared_preferences: ^0.5.12+4
+  #Get_it
+  get_it: ^5.0.1
+  #Alert_dialog
+  rflutter_alert: ^1.0.3
+  #Google_Map_Picker
+  google_maps_place_picker: ^0.9.4
+  #google_map_location_picker: 0.5.33
+  #Country_Picker
+  flutter_linkify: 3.1.2
+  country_picker: ^2.0.4
+  #timezone_Picker
+  timezone: ^0.7.0
+  #Toggle_switch
+  lite_rolling_switch: ^0.1.1
+  intl: ^0.17.0
+  #User Notification
+  fluttertoast: ^8.0.7
+  #Pin Text Field
+  pin_code_fields: ^6.0.1
+  #Geo_Location
+  geolocator: ^5.3.2+2
+  geocoder: ^0.2.1
+  devicelocale: ^0.4.1
+  #country_codes: ^1.0.3
+  flutter_cupertino_date_picker_fork: ^1.0.3
+  #Email_open
+  url_launcher: 6.0.4
+  mailto: ^2.0.0
+  #Otp_firebase
+  #firebase_core: ^0.3.0+2
+  #firebase_auth: ^0.8.1+1
+  #email_otp
+  email_auth: 0.0.1+2
+  flutter_country_picker: ^0.1.6
+  #FAB_Button
+  flutter_speed_dial: ^6.0.0
+  fab_circular_menu: ^1.0.0
+  flutter_arc_speed_dial: 2.0.0
+  circular_menu: 1.2.2
+  #dropdown_below
+  dropdown_below: ^0.0.8
+  dropdown_search: ^0.5.0
+  dropdownfield: ^1.0.3
+  grouped_buttons: ^1.0.4
+  wc_flutter_share: ^0.2.2
+  screenshot: ^1.2.3
+  dart_amqp: ^0.2.0
+  video_player: ^2.2.4
+  chewie: ^1.1.0
+  fancy_dialog: ^1.0.1
+  #google_mobile_ads: ^0.13.2+1
+  connectivity: ^3.0.6
+  weekday_selector: ^1.0.0
+  video_thumbnail: ^0.4.3
+  path_provider: ^1.6.28
+  contacts_service: ^0.4.6
+  permission_handler: ^5.1.0+2
+  flutter_time_picker_spinner: ^2.0.0
+  flutter_date_pickers: ^0.2.4
+  country_pickers: ^2.0.0
+  file_picker: ^2.1.7
+  excel: ^1.1.5
+  universal_html: ^1.2.4
+  mailer: ^5.0.1
+  location: ^4.0.0-nullsafety.0
+  firebase_dynamic_links: ^0.5.3
+  responsive_builder: ^0.4.1
+  sliver_fab: ^1.0.0
+  flutter_local_notifications: ^5.0.0-nullsafety.0
+  overlay_support: ^1.2.1
+  package_info: ^2.0.2
+  firebase_messaging: ^7.0.3
+  #firebase_auth: ^0.6.2+1
+  firebase_core: ^0.5.3
+  http: ^0.12.2
+  #hive: ^1.4.4+1
+  sqflite: ^2.0.0+4
+  syncfusion_flutter_datepicker: ^19.3.47
+  url_strategy: ^0.2.0
+  #velocity_x: ^3.3.0
+  flutter_widgets: ^0.1.12
+  vs_scrollbar: ^0.2.1
+  #dropdown_button2: ^1.0.0
+  cube_transition: ^1.0.2
+  empty_widget: ^0.0.5
+  skeletons: ^0.0.3
+  flutter_slidable: ^1.1.0
+  #idle_tracker: ^0.0.2
+  multiselect: ^0.0.4
+  #getwidget: ^2.0.4
+  expansion_card: ^0.1.0
+  #flutter_markdown: ^0.5.2
+  cool_dropdown: ^1.4.1
+  flutter_launcher_icons: ^0.8.1
+  flutter_device_type: ^0.4.0
+  fluro: ^2.0.3
+  flutter_image_compress: ^1.1.0
+  image: ^2.1.19
+  image_cropper: ^1.4.1
+  firebase: ^8.0.0
+  firebase_storage: ^5.2.0
+  photo_view: ^0.13.0
+  open_file: ^3.2.1
+  #add_2_calendar: ^2.1.3
+  google_sign_in: ^4.5.9
+  firebase_auth: ^0.6.2+1
+  device_calendar: ^3.9.0
+  bloc: ^8.1.0
+  flutter_facebook_auth: ^3.3.2+1
+  flutter_switch: ^0.3.2
+  flutter_svg: ^0.19.3
+  dropdown_plus: ^0.0.9
+  flutter_cursor: ^0.1.3
+  dropdown_button2: ^1.8.2
+  workmanager: ^0.5.0
+
+  #flutter_facebook_auth: ^2.0.2+1
+#  dropdown_button2: ^1.0.0
+  #charts_flutter: ^0.12.0
+  #universal_io: ^1.0.2
+  #share_plus: ^0.6.5
+
+flutter_icons:
+  ios: true
+  android: true
+  web: true
+  image_path_ios: "assets/images/spaid_logo.png"
+  image_path_android: "assets/images/spaid_logo.png"
+  image_path: "assets/images/spaid_logo.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  # Images:
+  assets:
+    - assets/images/
+    - assets/svg/
+    - assets/json/multi/
+    - assets/json/lang/en.json
+    - assets/json/lang/fa.json
+  #    - lib/ui/lang/ta.json
+  #   Fonts:
+  fonts:
+    - family: MyFlutterApp # the name of your font family
+      fonts:
+        - asset: assets/MyFlutterApp.ttf # your font file name and the directory
+    - family: PoppinsRegular
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+
+    - family: PoppinsBold
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+
+    - family: PoppinsLight
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+
+    - family: PoppinsMedium
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf
+
+    - family: PattayaRegular
+      fonts:
+        - asset: assets/fonts/Pattaya-Regular.ttf
+
+    - family: OswaldMedium
+      fonts:
+        - asset: assets/fonts/Oswald-Medium.ttf
+
+    - family: OswaldLight
+      fonts:
+        - asset: assets/fonts/Oswald-Light.ttf
+
+

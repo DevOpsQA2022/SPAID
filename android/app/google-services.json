@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1094349639868",
+    "project_id": "spaid-7df4e",
+    "storage_bucket": "spaid-7df4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094349639868:android:d8542aad252c885a8c80b9",
+        "android_client_info": {
+          "package_name": "com.ciglobal.spaid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094349639868-gjqnqu0b7iel3f8pma9h6p3popurpfu3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ciglobal.spaid",
+            "certificate_hash": "7fdce871e1e05cdb352649c4b11ffaa8c7e86a17"
+          }
+        },
+        {
+          "client_id": "1094349639868-sh36is4h597hdur79e170a6ns0c1eash.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxnib4MIBSh4-MukfMnIY0odhu4p5ckN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094349639868-sh36is4h597hdur79e170a6ns0c1eash.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1094349639868-01pjetqrrlj34docg8pc87lnlpvu0kj6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ciglobal.spaid",
+                "app_store_id": "123456"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

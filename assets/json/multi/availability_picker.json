@@ -1,0 +1,82 @@
+{
+  "availability": [
+    {
+      "value": "4",
+      "id": "DST",
+      "offset": -12,
+      "isdst": false,
+      "name": "Maples vs Panthers",
+      "utc": [
+        {
+          "id":11,
+          "imageName":"Jack Campbell",
+          "status": "Available"
+        },
+        {
+          "id":31,
+          "imageName":"Spencer Knight",
+          "status": "Available"
+        },
+        {
+          "id":31,
+          "imageName":"Lucas Carlsson",
+          "status": "Tentative"
+        }
+      ]
+    },
+    {
+      "value": " 3",
+      "id": "DST",
+      "offset": -12,
+      "isdst": false,
+      "name": "Slap up meal ",
+      "utc": [
+        {
+          "id":11,
+          "imageName":"Michael Bunting",
+          "status": "Tentative"
+
+        },
+        {
+          "id":31,
+          "imageName":"Wayne Simmonds",
+          "status": "Available"
+
+        },
+        {
+          "id":31,
+          "imageName":"Sam Bennett",
+          "status": "Not Available"
+
+        }
+      ]
+    },
+    {
+      "value": " 5",
+      "id": "DST",
+      "offset": -12,
+      "isdst": false,
+      "name": "Game 2",
+      "utc": [
+        {
+          "id":11,
+          "imageName":"Joe Thornton",
+          "status": "Not Available"
+
+        },
+        {
+          "id":31,
+          "imageName":"Timothy Liljegren",
+          "status": "Available"
+
+        },
+        {
+          "id":31,
+          "imageName":"Frank Vatrano",
+          "status": "Not Responded"
+
+        }
+      ]
+    }
+  ]
+}

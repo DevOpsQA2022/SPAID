@@ -1,0 +1,65 @@
+{
+  "availability": [
+    {
+      "value": "Player",
+      "id": "DST",
+      "offset": 1,
+      "isdst": false,
+      "name": "joy",
+      "email": "joy@gmail.com",
+      "phNo": "9847584923",
+      "address": "canada",
+      "utc": [
+        {
+          "id": 11,
+          "imageName": "xCh-rhy"
+        },
+        {
+          "id": 31,
+          "imageName": "fjs-eun"
+        }
+      ]
+    },
+    {
+      "value": "Manager",
+      "id": "DST",
+      "offset": 2,
+      "isdst": false,
+      "name": "Adam",
+      "email": "Adam@gmail.com",
+      "phNo": "9667794925",
+      "address": "Algeria",
+      "utc": [
+        {
+          "id": 11,
+          "imageName": "xCh-rhy"
+        },
+        {
+          "id": 31,
+          "imageName": "fjs-eun"
+        }
+      ]
+    },
+    {
+      "value": "Non Player",
+      "id": "DST",
+      "offset": 3,
+      "isdst": false,
+      "name": "chrish",
+      "email": "chrish@gmail.com",
+      "phNo": "9007584903",
+      "address": "Angola",
+      "utc": [
+        {
+          "id": 11,
+          "imageName": "xCh-rhy"
+        },
+        {
+          "id": 31,
+          "imageName": "fjs-eun"
+        }
+      ]
+    }
+
+  ]
+}
