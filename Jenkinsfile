@@ -8,6 +8,9 @@ pipeline {
             steps {
                 bat "flutter clean"
                 bat "flutter pub get"
+                bat "flutter run --no-sound-null-safety"
+
+
                  
                 bat "flutter build apk --debug"
                 echo "successfully build"
