@@ -7,8 +7,8 @@ pipeline {
         stage ('Build') {
             steps {
               echo 'successfully'
-                bat "flutter clean"
-                bat "flutter build web"
+                bat "flutter clean"               
+                bat "flutter build apk --flavor dev -t lib/main_dev.dart --no-sound-null-safety"
                 bat "flutter target/*.war target/*.war"
             }
             post{
