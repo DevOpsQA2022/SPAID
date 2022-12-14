@@ -8,7 +8,8 @@ pipeline {
             steps {
               echo 'successfully'
                 bat "flutter clean"
-                sh "flutter target/*.war target/*.war"
+                bat "flutter build web"
+                bat "flutter target/*.war target/*.war"
             }
             post{
                  success{
