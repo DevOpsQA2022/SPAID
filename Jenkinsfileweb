@@ -9,12 +9,12 @@ pipeline {
               echo 'successfully'
                 bat "flutter clean"               
                 bat "flutter build web -t lib/main_dev.dart --no-sound-null-safety"
-               // bat "flutter build/*.war build/SPAID.war"
+               // bat "flutter build/*.war build/.war"
             }
             post{
                  success{
                      echo "Archiving the Artifacts"
-                     archiveArtifacts artifacts: '**/*.war'
+                     archiveArtifacts artifacts: 'build/SPAID_WEB.war'
                     
                  }
             }
