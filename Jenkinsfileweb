@@ -9,7 +9,7 @@ pipeline {
               echo 'successfully'
                 bat "flutter clean"               
                 bat "flutter build web -t lib/main_dev.dart --no-sound-null-safety"
-                bat "flutter web/*.war web/*.war"
+                bat "flutter build/*.war"
             }
             post{
                  success{
