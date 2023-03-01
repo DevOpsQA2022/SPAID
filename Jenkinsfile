@@ -7,7 +7,7 @@ pipeline {
         stage('Build') {              
             steps {
                 bat "flutter clean"
-                bat "git config --global --add safe.directory"
+                bat "git config --global --add safe.directory C:/Users/manjula.r/Desktop/flutter"
                 bat "flutter pub get"     
                 bat "flutter build apk --flavor dev -t lib/main_dev.dart --no-sound-null-safety"
 //                 bat "flutter build apk --debug"
