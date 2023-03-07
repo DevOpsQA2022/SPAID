@@ -16,13 +16,13 @@ pipeline {
                 echo "successfully build"
                 
             }
-              post{
-                 success{
-                     echo "Archiving the Artifacts"
-                     archiveArtifacts artifacts: '**/release/*.apk'
+//               post{
+//                  success{
+//                      echo "Archiving the Artifacts"
+//                      archiveArtifacts artifacts: '**/release/*.apk'
                     
-                 }
-            }            
+//                  }
+//             }            
         }
     }
 }
